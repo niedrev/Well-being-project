@@ -1,2 +1,3 @@
 # Well-being-project
 Employee feedback analyses
+The purpose of this project is to leverage Artificial Intelligence (AI) and Machine Learning (ML) to analyze employee feedback and predict well-being outcomes. By integrating structured (numerical HR data) and unstructured (textual feedback) data sources, the project aims to develop predictive models that help organizations enhance employee satisfaction, reduce turnover, and improve overall workplace well-being. Additionally, this research will address key ethical and legal concerns, ensuring compliance with data privacy regulations while maintaining fairness and transparency in AI-driven HR analytics.
