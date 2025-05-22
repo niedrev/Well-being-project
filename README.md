@@ -39,47 +39,35 @@ A pilot survey of 50 employees was conducted using questions inspired by Gallup 
 ## 🛠️ Project Structure
 
 employee-wellbeing-ai/
-├── 📂 data/               → Raw and processed datasets
-│   ├── raw/
-│   └── processed/
-├── 📓 notebooks/          → Jupyter/Colab notebooks for EDA, modeling, evaluation
-├── 🧩 src/                → Python modules (preprocessing, modeling, utils)
-├── 📊 reports/            → Visualizations and model output
-├── 📄 requirements.txt    → Python package dependencies
-├── 📘 README.md           → Project overview and instructions
-└── 🔒 LICENSE             → Open source license
+- ├── 📂 data/               → Raw and processed datasets
+- │   ├── raw/
+- │   └── processed/
+- ├── 📓 notebooks/          → Jupyter/Colab notebooks for EDA, modeling, evaluation
+- ├── 🧩 src/                → Python modules (preprocessing, modeling, utils)
+- ├── 📊 reports/            → Visualizations and model output
+- ├── 📄 requirements.txt    → Python package dependencies
+- ├── 📘 README.md           → Project overview and instructions
+- └── 🔒 LICENSE             → Open source license
 
 ## 🤖 Models Used
 Classification Tasks:
-
 - Logistic Regression
-
 - Decision Tree Classifier
-
 - XGBoost
 
 Regression Tasks:
-
 - Linear Regression
-
 - Random Forest Regressor
-
 - XGBoost Regressor
 
 Evaluation Metrics:
-
 - Accuracy, Precision, Recall, F1
-
 - R², MAE, RMSE
-
 - Cross-Validation
 
 Explainability:
-
 - Feature Importance
-
 - SHAP values
-
 - Decision tree paths
 
 ---
