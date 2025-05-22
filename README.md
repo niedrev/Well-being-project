@@ -39,13 +39,15 @@ A pilot survey of 50 employees was conducted using questions inspired by Gallup 
 ## 🛠️ Project Structure
 
 employee-wellbeing-ai/
-├── data/               # Raw and processed data (anonymized)
-├── notebooks/          # Colab/Jupyter notebooks for exploration & modeling
-├── src/                # Python scripts for preprocessing, modeling, explainability
-├── reports/            # Visualizations, SHAP plots, evaluation results
-├── requirements.txt    # Python dependencies
-├── README.md           # Project overview
-└── LICENSE
+├── 📂 data/               → Raw and processed datasets
+│   ├── raw/
+│   └── processed/
+├── 📓 notebooks/          → Jupyter/Colab notebooks for EDA, modeling, evaluation
+├── 🧩 src/                → Python modules (preprocessing, modeling, utils)
+├── 📊 reports/            → Visualizations and model output
+├── 📄 requirements.txt    → Python package dependencies
+├── 📘 README.md           → Project overview and instructions
+└── 🔒 LICENSE             → Open source license
 
 ## 🤖 Models Used
 Classification Tasks:
@@ -104,21 +106,13 @@ Explainability:
 
 ## 🚀 Getting Started
 1. Clone the Repository
-
-bash
-Kopēt
-Rediģēt
 git clone https://github.com/yourusername/employee-wellbeing-ai.git
 cd employee-wellbeing-ai
 
-3. Install Dependencies
-
-bash
-Kopēt
-Rediģēt
+2. Install Dependencies
 pip install -r requirements.txt
 
-4. Run Notebooks
+3. Run Notebooks
 Open notebooks from the /notebooks folder and run them sequentially:
 
 - 01_data_exploration.ipynb
@@ -126,6 +120,7 @@ Open notebooks from the /notebooks folder and run them sequentially:
 - 02_modeling.ipynb
 
 - 03_evaluation.ipynb
+
 
 ---
 
