@@ -76,51 +76,39 @@ Explainability:
 
 ## 🔐 Ethical & Legal Compliance
 -  Data anonymized and collected with consent
-
 - In line with GDPR and EU AI Act (HR use = high-risk)
-
 - Transparent modeling with interpretable AI
-
 - Bias audits outlined for future scaling
 
 ---
 
 ## 💡 Key Results
 - Logistic Regression reached ~76% accuracy predicting employee recommendation.
-
 - Sentiment analysis of open feedback showed moderate correlation with satisfaction.
-
 - Supervisor support and workload emerged as top predictors in feature importance.
 
 ---
 
 ## 🚀 Getting Started
 1. Clone the Repository
-git clone https://github.com/yourusername/employee-wellbeing-ai.git
+- git clone https://github.com/yourusername/employee-wellbeing-ai.git
 cd employee-wellbeing-ai
 
 2. Install Dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3. Run Notebooks
 Open notebooks from the /notebooks folder and run them sequentially:
-
-- 01_data_exploration.ipynb
-
-- 02_modeling.ipynb
-
-- 03_evaluation.ipynb
-
+ - 01_data_exploration.ipynb
+ - 02_modeling.ipynb
+ - 03_evaluation.ipynb
 
 ---
 
 ## 📚 References
 - Gallup Q12 Framework
-
 - EU Artificial Intelligence Act
-
 - SHAP: Lundberg & Lee (2017)
-
 - Dataset inspired by Koluit HR Dataset (Kaggle)
 
 ---
