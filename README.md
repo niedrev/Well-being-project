@@ -50,7 +50,7 @@ employee-wellbeing-ai/
 
 ---
 
-## 🤖 Models Used
+**## 🤖 Models Used**
 Classification Tasks:
 
 Logistic Regression
