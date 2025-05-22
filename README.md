@@ -50,7 +50,7 @@ employee-wellbeing-ai/
 
 ---
 
-🤖 Models Used
+## 🤖 Models Used
 Classification Tasks:
 
 Logistic Regression
@@ -83,7 +83,7 @@ SHAP values
 
 Decision tree paths
 
-🔐 Ethical & Legal Compliance
+##🔐 Ethical & Legal Compliance
 Data anonymized and collected with consent
 
 In line with GDPR and EU AI Act (HR use = high-risk)
@@ -92,14 +92,14 @@ Transparent modeling with interpretable AI
 
 Bias audits outlined for future scaling
 
-💡 Key Results
+##💡 Key Results
 Logistic Regression reached ~76% accuracy predicting employee recommendation.
 
 Sentiment analysis of open feedback showed moderate correlation with satisfaction.
 
 Supervisor support and workload emerged as top predictors in feature importance.
 
-🚀 Getting Started
+##🚀 Getting Started
 1. Clone the Repository
 bash
 Kopēt
@@ -120,7 +120,7 @@ Open notebooks from the /notebooks folder and run them sequentially:
 
 03_evaluation.ipynb
 
-📚 References
+##📚 References
 Gallup Q12 Framework
 
 EU Artificial Intelligence Act
@@ -129,11 +129,11 @@ SHAP: Lundberg & Lee (2017)
 
 Dataset inspired by Koluit HR Dataset (Kaggle)
 
-🧠 Author
-[Your Full Name]
+##🧠 Author
+Vija Niedre
 Master’s in Computer Science, Specializing in Data Analytics & AI
-📧 [your.email@example.com]
-🔗 [LinkedIn or personal website]
+📧 st83814@students.tsi.lv
+🔗 [[LinkedIn or personal website]](https://www.linkedin.com/in/vijaniedre/)
 
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
