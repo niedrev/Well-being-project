@@ -90,14 +90,12 @@ Explainability:
 ---
 
 ## 🚀 Getting Started
-1. Clone the Repository
+ 1. Clone the Repository
 - git clone https://github.com/yourusername/employee-wellbeing-ai.git
 cd employee-wellbeing-ai
-
-2. Install Dependencies
+ 2. Install Dependencies
 - pip install -r requirements.txt
-
-3. Run Notebooks
+ 3. Run Notebooks
 Open notebooks from the /notebooks folder and run them sequentially:
  - 01_data_exploration.ipynb
  - 02_modeling.ipynb
