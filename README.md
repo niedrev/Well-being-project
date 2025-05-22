@@ -49,6 +49,8 @@ employee-wellbeing-ai/
 - ├── 📘 README.md           → Project overview and instructions
 - └── 🔒 LICENSE             → Open source license
 
+---
+
 ## 🤖 Models Used
 Classification Tasks:
 - Logistic Regression
