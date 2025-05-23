@@ -1,33 +1,3 @@
-touch preprocess.py
-# preprocess.py
-
-import pandas as pd
-from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
-from sklearn.impute import SimpleImputer
-from sklearn.compose import ColumnTransformer
-
-def clean_and_encode(df):
-    # Drop irrelevant columns
-    df = df.drop(columns=['Survey', 'EmployeeID'], errors='ignore')
-
-    # Fill missing values
-    for col in df.columns:
-        if df[col].isnull().any():
-            if pd.api.types.is_numeric_dtype(df[col]):
-                df[col].fillna(df[col].median(), inplace=True)
-            else:
-                df[col].fillna(df[col].mode()[0], inplace=True)
-
-    # Label encode object columns
-    object_cols = df.select_dtypes(include='object').columns
-    for col in object_cols:
-        le = LabelEncoder()
-        df[col] = le.fit_transform(df[col])
-
-    return df
-
-def scale_features(df):
-    numeric_cols = df.select_dtypes(include='number').columns
-    scaler = StandardScaler()
-    df[numeric_cols] = scaler.fit_transform(df[numeric_cols])
-    return df
+mkdir -p employee-wellbeing-ai/src
+cd employee-wellbeing-ai/src
+touch preprocess.py features.py models.py evaluate.py explainability.py utils.py
