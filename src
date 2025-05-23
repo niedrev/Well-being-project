@@ -1,6 +1,6 @@
 mkdir -p employee-wellbeing-ai/src
 cd employee-wellbeing-ai/src
-import tourch preprocess.py features.py models.py evaluate.py explainability.py utils.py
+import torch preprocess.py features.py models.py evaluate.py explainability.py utils.py
 
 # preprocess.py
 
