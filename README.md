@@ -39,7 +39,7 @@ A pilot survey of 50 employees was conducted using questions inspired by Gallup 
 ## 🛠️ Project Structure
 
 employee-wellbeing-ai/
-- ├── 📂 data/               → Raw and processed datasets
+- ├── 📂 data/               → Raw and processed datasets (avalaible by request for caution)
 - │   ├── raw/
 - │   └── processed/
 - ├── 📓 notebooks/          → Jupyter/Colab notebooks for EDA, modeling, evaluation
