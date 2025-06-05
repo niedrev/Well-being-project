@@ -5,7 +5,7 @@
 
 ## 🎓 Master's Thesis Project
 
-This repository contains the code, data pipeline, and modeling framework developed for my Master's thesis at [Your University Name]. The project explores how artificial intelligence can be used to analyze employee feedback and predict well-being metrics using ethical and explainable machine learning techniques.
+This repository contains the code, data pipeline, and modeling framework developed for my Master's thesis at TSI. The project explores how artificial intelligence can be used to analyze employee feedback and predict well-being metrics using ethical and explainable machine learning techniques.
 
 ---
 
