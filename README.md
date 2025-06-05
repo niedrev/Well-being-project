@@ -103,6 +103,7 @@ Open notebooks from the /notebooks folder and run them sequentially:
 
 ---
 ## 🗂️📁 Project management
+- Project management tool used for this project Notion
 - Got to -> https://majestic-talos-016.notion.site/master-thesis-st83814 (need create account) 
 load example reuse it
 - Preview of Master Thesis project management .pdf format available here -> https://studentstsi-my.sharepoint.com/:f:/g/personal/st83814_students_tsi_lv/EuwoYSAt6upDgTbYVbYt49MBeHwKpq0Lqq7pA91cm0znXQ?e=95lC0z
